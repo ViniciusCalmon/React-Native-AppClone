@@ -110,7 +110,7 @@ const DATA = [
 ];
 
 
-export const Home = ({navigation}) => {
+export const Home = () => {
 
     const {signOut} = useContext(AuthContext)
 
@@ -134,7 +134,7 @@ export const Home = ({navigation}) => {
                 fontWeight: 'bold', 
                 textAlign: 'center', 
                 color: 'white',
-                fontFamily:'Motiva Sans'}}>Amigos
+                fontFamily:'OpenSans-Light'}}>Amigos
                 </Text>
                 
             </View>
