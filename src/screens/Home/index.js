@@ -11,98 +11,98 @@ const DATA = [
     {
 
         id: '1',
-        imagem: require('../../components/amigo1.png'),
+        imagem: require('../../assets/amigo1.png'),
         title: 'FiberflyCOMP',
         status: 'Icarus',
     },
 
     {
         id: '2',
-        imagem: require('../../components/amigo2.png'),
+        imagem: require('../../assets/amigo2.png'),
         title: 'MEGA',
         status: 'Dragon Age Inquisition',
     },
 
     {
         id: '3',
-        imagem: require('../../components/amigo3.png'),
+        imagem: require('../../assets/amigo3.png'),
         title: 'Zapdos',
         status: 'PUBG: BATTLEGROUNDS',
     },
 
     {
         id: '4',
-        imagem: require('../../components/amigo4.png'),
+        imagem: require('../../assets/amigo4.png'),
         title: 'Chuck',
         status: 'Disponível',
     },
 
     {
         id: '5',
-        imagem: require('../../components/amigo5.png'),
+        imagem: require('../../assets/amigo5.png'),
         title: 'czaR',
         status: 'Disponível',
     },
 
     {
         id: '6',
-        imagem: require('../../components/amigo6.png'),
+        imagem: require('../../assets/amigo6.png'),
         title: 'gameouverbrazil',
         status: 'Disponível',
     },
 
     {
         id: '7',
-        imagem: require('../../components/amigo7.png'),
+        imagem: require('../../assets/amigo7.png'),
         title: 'Gezin',
         status: 'Disponível',
     },
 
     {
         id: '8',
-        imagem: require('../../components/amigo8.png'),
+        imagem: require('../../assets/amigo8.png'),
         title: 'Giovani_Miguel',
         status: 'Disponível',
     },
 
     {
         id: '9',
-        imagem: require('../../components/amigo9.png'),
+        imagem: require('../../assets/amigo9.png'),
         title: 'jubz',
         status: 'Disponível',
     },
 
     {
         id: '10',
-        imagem: require('../../components/amigo10.png'),
+        imagem: require('../../assets/amigo10.png'),
         title: 'Kayden',
         status: 'Disponível',
     },
 
     {
         id: '11',
-        imagem: require('../../components/amigo11.png'),
+        imagem: require('../../assets/amigo11.png'),
         title: 'Leonardo Fonseca',
         status: 'Disponível',
     },
 
     {
         id: '12',
-        imagem: require('../../components/amigo12.png'),
+        imagem: require('../../assets/amigo12.png'),
         title: 'Lokitto',
         status: 'Disponível',
     },
 
     {
         id: '13',
-        imagem: require('../../components/amigo13.png'),
+        imagem: require('../../assets/amigo13.png'),
         title: 'Luizera',
         status: 'Disponível',
     },
 
     {
         id: '14',
-        imagem: require('../../components/amigo14.png'),
+        imagem: require('../../assets/amigo14.png'),
         title: 'Mark',
         status: 'Disponível',
     },
@@ -144,7 +144,7 @@ export const Home = ({navigation}) => {
 
         <View style={{height:55, alignItems: 'center'}}>
             <Image
-                source={require('../../components/amigos.jpg')}
+                source={require('../../assets/amigos.jpg')}
                 style={{width:'150%', height:'85%', alignSelf: 'center'}}
                 resizeMode='contain'
             />

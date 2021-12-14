@@ -1,4 +1,5 @@
 import React, {createContext, useState, useEffect, useContext} from 'react';
+import {Alert} from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const AuthContext = createContext({});
@@ -18,13 +19,13 @@ export const AuthProvider = ({children}) => {
   }, []);
 
   function signIn(email, password){
-    if(email === "viniciuscalmon1@gmail.com" && password === "1234") {
+    if(email === "viniciuscalmon" && password === "1234") {
       const token = "uhasBaiwsdiu8Abk"
       setSigned(true)
       AsyncStorage.setItem('@token', token);
 
     } else {
-      console.log("Email ou senha incorretos");
+      Alert.alert("Email ou senha incorretos");
     }
   }
 
