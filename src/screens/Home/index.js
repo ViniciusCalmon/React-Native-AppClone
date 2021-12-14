@@ -142,7 +142,7 @@ export const Home = () => {
 
         </RadialGradient>
 
-        <View style={{height:55, alignItems: 'center'}}>
+        <View style={{height:'7%', alignItems: 'center'}}>
             <Image
                 source={require('../../assets/amigos.jpg')}
                 style={{width:'150%', height:'85%', alignSelf: 'center'}}
